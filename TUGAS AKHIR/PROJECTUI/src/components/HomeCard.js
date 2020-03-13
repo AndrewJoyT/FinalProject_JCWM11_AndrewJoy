@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
+import gambar1 from './../supports/img/bg1.jpg'
+import gambar2 from './../supports/img/bg2.jpg'
+import gambar3 from './../supports/img/bg3.jpg'
 
 class HomeCard extends Component {
     render() {
         return(
-            <div>
-            {/* <div className="row">
-                <div className="col col-md-6 firstBackground" style={{height: '400px'}}>
+            <div style={{fontSize:'50px', marginTop:'-220px', paddingBottom:'20px', textAlign:'center'}}>
+                WHY ROLEX?
+            <div className="row">
+                <div className="col col-md-6 " style={{height: '400px'}} > 
+                <img src={gambar1}></img>
                 </div>
                 <div className="col col-md-6 bg-light border">
-                    <h1 className="text-center text-uppercase bold" style={{paddingTop: '100px'}}>iPhone Xs & Xs Max</h1>
-                    <h5 className="text-center" style={{fontSize: '18px', fontFamily: 'calibri', paddingLeft: '30px', paddingRight: '30px', paddingTop: '10px'}}>Super Retina in two sizes — including the largest display ever on an iPhone. Even faster Face ID. The smartest, most powerful chip in a smartphone. And a breakthrough dual-camera system with Depth Control. iPhone XS is everything you love about iPhone. Taken to the extreme.</h5>
+                    <h1 className="text-center text-uppercase bold" style={{paddingTop: '100px'}}>Rolex watches are tough as nails</h1>
+                    <h5 className="text-center" style={{fontSize: '18px', fontFamily: 'calibri', paddingLeft: '30px', paddingRight: '30px', paddingTop: '10px'}}>This is a fact. Between all brands of watches, Rolex rate among the sturdiest, even if they are considered fit for a formal dinner - and this is not something every brand of watch can say. Remember that Rolex watches, and I intend mainly the luxury sports ones, were primarily made as “tool watches”.
+
+A tool watch is a watch that is made for a specific purpose, other than telling time. And this purpose was being sporty, and not afraid of contact with water - something that instead was a bane for almost every dress watch.</h5>
                     <center style={{paddingTop: '10px'}}>
                     <a href="/productsgridview">
                     <button type="button" className="btn btn-primary btn-lg" style={{width: '150px', paddingTop: '10px'}}>Buy Now</button>
@@ -20,32 +27,34 @@ class HomeCard extends Component {
 
             <div className="row mt-5">
                 <div className="col col-md-6 bg-light border">
-                    <h1 className="text-center text-uppercase bold" style={{paddingTop: '100px'}}>Apple Watch</h1>
-                    <h5 className="text-center" style={{fontSize: '18px', fontFamily: 'calibri', paddingLeft: '30px', paddingRight: '30px', paddingTop: '10px'}}>All new! for a better you.
-                    Introducing Apple Watch Series 4. Fundamentally redesigned and re-engineered to help you stay even more active, healthy and connected. The new all-screen design means iPad Pro is a magical piece of glass that does everything you need, any way you hold it.</h5>
+                    <h1 className="text-center text-uppercase bold" style={{paddingTop: '100px'}}>Rolex watches are extremely precise</h1>
+                    <h5 className="text-center" style={{fontSize: '18px', fontFamily: 'calibri', paddingLeft: '30px', paddingRight: '30px', paddingTop: '10px'}}>This is another old goal of Rolex watches: making a timepiece that was extremely precise in keeping time. It was one of its primary goals - and it fulfilled it so well that in 1914, the Kew Observatory awarded a Rolex watch a Class A precision certificate, a distinction normally granted exclusively to marine chronometers.</h5>
                     <center style={{paddingTop: '10px'}}>
                     <a href="/productsgridview">
                     <button type="button" className="btn btn-primary btn-lg" style={{width: '150px', paddingTop: '10px'}}>Buy Now</button>
                     </a>
                     </center>
                 </div>
-                <div className="col col-md-6 firstBackground2" style={{height: '400px'}}>
+                <div className="col col-md-6 " style={{height: '400px'}}>
                 </div>
             </div>  
             
             <div className="row mt-5" style={{marginBottom: '100px'}}>
-                <div className="col col-md-6 bgthird" style={{height: '400px'}}>
+                <div className="col col-md-6 " style={{height: '400px'}}>
                 </div>
                 <div className="col col-md-6 bg-light border">
-                    <h1 className="text-center text-uppercase bold" style={{paddingTop: '100px'}}>Ipad Pro</h1>
-                    <h5 className="text-center" style={{fontSize: '18px', fontFamily: 'calibri', paddingLeft: '30px', paddingRight: '30px', paddingTop: '10px'}}>It’s all new, all screen and all powerful. Completely redesigned and packed with our most advanced technology, it will make you rethink what iPad is capable of. The new all-screen design means iPad Pro is a magical piece of glass that does everything you need, any way you hold it.</h5>
+                    <h1 className="text-center text-uppercase bold" style={{paddingTop: '100px'}}>Rolex watches are an icon of design</h1>
+                    <h5 className="text-center" style={{fontSize: '18px', fontFamily: 'calibri', paddingLeft: '30px', paddingRight: '30px', paddingTop: '10px'}}>The Rolex craze is quite a recent feat, going back around ten years or so. As you probably know, nowadays you cannot buy a new Submariner in steel just by getting into a Rolex boutique. There is a long waiting list to get one - years and years - due to extensive request and limited supply.</h5>
                     <center style={{paddingTop: '10px'}}>
                     <a href="/productsgridview">
                     <button type="button" className="btn btn-primary btn-lg" style={{width: '150px', paddingTop: '10px'}}>Buy Now</button>
                     </a>
                     </center>
+                    
                 </div>
-            </div> */}
+                
+            </div>
+            
             </div>
         )
     }

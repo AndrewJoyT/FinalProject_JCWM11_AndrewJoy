@@ -63,8 +63,12 @@ class HeaderReact extends Component {
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar>
 
-
-                            
+                                  <a href ='/productsgridview'>
+                                   <div className='container'  style={{fontSize:'20px', paddingLeft:'450px', color:'white',lineHeight: '30px',fontFamily:'Open Sans'}}>
+                                      ALL PRODUCT 
+                                   </div>
+                                   </a>
+                        
                             
                            
                             
@@ -73,9 +77,10 @@ class HeaderReact extends Component {
 
 
                                 <li className="material-icons">
-                                    <a className="nav-link btn btn-light btn-round" href="login">
+                                    <a className="nav-link btn btn-light btn-round" href="login" >
                                         Login
                                      </a>
+                                     
                                 </li>
                                 <div style={{fontSize:'30px',color:'white'}}>
                                     OR

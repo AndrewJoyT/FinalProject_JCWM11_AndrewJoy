@@ -8,17 +8,17 @@ class Carousels extends Component {
     render(){
         return (
             <Carousel autoPlay showThumbs={false} infiniteLoop={true} centerMode={false} axis="horizontal" className="full-width-div" style={{marginLeft: '-25px', marginRight: '-25px'}}>
-                <div>
+                <div >
                     <a href="/productsgridview">
-                    <h1 style={{color: 'white'}}>BIDEN</h1>
+                    <h1 style={{color: 'white'}}></h1>
                     <img src={jam1}
-                        alt="jam" style={{height: "100%", width: "100%"}} className="img-responsive"
+                        alt="jam" style={{height: "auto", width: "auto"}} className="img-responsive"
                         className="img-fluid" />
                     </a>
                 </div>
                 <div>
                     <a href="/productsgridview">
-                    <h1 style={{color: 'white'}}>ALEXANDER CHRISTIE</h1>
+                    <h1 style={{color: 'white'}}></h1>
                     <img src={jam2}
                         alt="jam" style={{height: "auto", width: "auto"}} />
                     </a>
@@ -26,7 +26,7 @@ class Carousels extends Component {
                 <a href="/productsgridview">
                 <div>
                     
-                    <h1 style={{color: 'white'}}>GSHOCK</h1>
+                    <h1 style={{color: 'white'}}></h1>
                     <img src={jam3}
                         alt="jam" style={{height: "auto", width: "auto"}} />
                     

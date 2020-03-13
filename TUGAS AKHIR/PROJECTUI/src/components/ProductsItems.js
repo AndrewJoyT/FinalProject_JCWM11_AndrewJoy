@@ -89,7 +89,8 @@ class ProductsItems extends Component {
                         <h4 className="card-title">
                             <h4 className="card-title">{nama}</h4>
                         </h4>
-                        <p className="card-description">Bergaransi Resmi iBox Indonesia selama 1 Tahun, Dapatkan segera</p>
+                        <p className="card-description">A Luxury and Expensive Watch!
+                        Buy Now!</p>
                         <div className="footer">
                             <div className="price-container">
                                 
