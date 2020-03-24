@@ -53,7 +53,7 @@ class RegisterPage extends Component {
               }
 
             return (
-                <div style={{height: "700px"}}>
+                <div style={{height: "720px", paddingTop:'40px'}}>
                     <div className="full-width-div card bg-white col-md-12" style={{paddingBottom: '50px', marginTop: '-50px'}}>
                     <article className="col-md-3 card-body mx-auto shadow p-3 bg-white rounded border mx-auto" style={{marginTop: '60px'}}>
                         <h5 className="card-title mt-3 text-center" 
@@ -61,11 +61,11 @@ class RegisterPage extends Component {
                         <br/>
                         <form style={{ paddingRight: "40px", paddingLeft: '40px', paddingBottom: '20px' }}>
                             <div className="form-group">
-                                <h3 className="text-left" ><i className="fa fa-user"></i> username</h3>
+                                <h3 className="text-left" ><i className="fa fa-user"></i> USERNAME</h3>
                                 <input type="text" ref="username" className="form-control form-control-lg" style={{ fontSize: "14px", marginBottom: "15px" }}/>
                             </div>
                             <div className="form-group">
-                                <h3 className="text-left"><i className="fa fa-envelope"></i> email</h3>
+                                <h3 className="text-left"><i className="fa fa-envelope"></i> EMAIL</h3>
                                 <input type="email" ref="email" className="form-control form-control-lg" 
                                 style={{ fontSize: "14px", marginBottom: "15px"  }} />
                             </div>
@@ -75,12 +75,12 @@ class RegisterPage extends Component {
                                 style={{ fontSize: "14px", marginBottom: "15px"  }} />
                             </div> */}
                             <div className="form-group">
-                                <h3 className="text-left"><i className="fa fa-unlock-alt"></i> password</h3>
+                                <h3 className="text-left"><i className="fa fa-lock"></i> PASSWORD</h3>
                                 <input ref="password" className="form-control form-control-lg" 
                                 type="password" style={{ fontSize: "14px", marginBottom: "15px"  }} />
                             </div>
                             <div className="form-group">
-                                <h3 className="text-left"><i className="fa fa-unlock-alt"></i> confirm password</h3>
+                                <h3 className="text-left"><i className="fa fa-lock"></i> CONFIRM PASSWORD</h3>
                                 <input ref="confirmPassword" className="form-control form-control-lg" 
                                 type="password" style={{ fontSize: "14px", marginBottom: "15px"  }} />
                             </div>

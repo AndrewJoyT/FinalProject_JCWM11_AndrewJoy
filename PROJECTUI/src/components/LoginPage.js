@@ -65,12 +65,12 @@ class LoginPage extends Component {
                 <form style={{ paddingRight: "40px", paddingLeft: '40px', paddingBottom: '44px' }}>
                 <h5 style={{ textAlign: 'center', fontSize: "34px", paddingBottom: '20px'}}>LOGIN</h5><br/>
                   <div className="form-group">
-                    <h3 className="text-left"><i className="fa fa-user"></i> username</h3>
+                    <h3 className="text-left"><i className="fa fa-user"></i> USERNAME</h3>
                   <input ref="username" className="form-control form-control-lg" style={{ fontSize: "14px" }} 
                   type="text" />
                   </div>
                   <div className="form-group">
-                    <h3 className="text-left"><i className="fa fa-unlock-alt"></i> password</h3>
+                    <h3 className="text-left"><i className="fa fa-lock"></i> PASSWORD</h3>
                   <input ref="password" className="form-control form-control-lg" style={{ fontSize: "14px" }} 
                   type="password" />
                 </div>

@@ -42,6 +42,19 @@
   color: #61dafb;
 }
 
+
+.logo{
+  text-align: right;
+  padding-top:3px;
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo1{
+  padding-right: '';
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -49,4 +62,120 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.headerlogo {
+  font-family: 'Open Sans', ;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(218, 218, 218);
+}
+
+.iconsearch{
+  font-size: 25px;
+  margin-left: 5px;
+  color: rgb(218, 218, 218) ;
+}
+
+
+.iconcart{
+  font-size: 25px;
+  margin-right: 15px;
+  color: rgb(218, 218, 218);
+}
+
+.iconuser{
+  font-size: 28px;
+  margin-right: 15px;
+  color: rgb(218, 218, 218);
+}
+
+.logo{
+  text-align: right;
+  padding-top:3px;
+  height: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.kategorisatu{
+  padding: 50px;
+  width: 20px;
+}
+
+
+.navbartop{
+  height: 80px;
+}
+
+.kategorihome{
+  margin-top: 50px;
+  margin-right: 30px; 
+}
+
+.buttonbestseller{
+  text-align: center;
+}
+
+.pemisahsatu{
+  padding-bottom: 80px;
+}
+
+.hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+
+}
+
+.jenis{
+  text-align: center;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+
+.menu{
+  text-align: center;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 15px;
+  padding-bottom: 15px;
+  padding-top: 8px
+}
+
+
+.product{
+  text-align: center;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+
+.footerpage {
+  background-color: black;   
+  height: 220px;
+  margin-top: 50px;
+}
+
+.contentfooter{
+  padding-top: 25px;
+  color: whitesmoke;
+}
+
+.logofooter{
+  font-size: 50px;
+}
+
+.itulahitu{
+  margin-left: 300px;
+  margin-right: 300px;
 }

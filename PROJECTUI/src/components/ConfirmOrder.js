@@ -81,9 +81,9 @@ class ConfirmOrder extends Component {
                         <td className="text-left" style={{ fontSize: '14px', }}>
                             <CustomInput type="file" id="AddBrandImage" name="AddBrandImage" label={this.state.addConfirmImage} onChange={this.onAddFileImageChange} />
                         </td>
-                        <td colSpan="2"><center><button className="btn btn-success" style={{ fontSize: "12px" }}
+                        <td colSpan="2"><center><button className="btn btn-red" style={{ fontSize: "12px" }}
                             onClick={() => this.onBtnConfirm()}>
-                            <i className="fa fa-plus"></i> Add</button></center></td>
+                            <i className="fa fa-check"></i> DONE</button></center></td>
                     </tr>
             )
         }
@@ -96,8 +96,8 @@ class ConfirmOrder extends Component {
                         <div  style={{height: '700px'}}>
                             <div className="full-width-div card bg-light pb-5">
                                 {/* <div className="table-responsive card shadow p-3 mb-5 bg-white rounded"> */}
-                                <h2 className="section-heading text-uppercase text-center pt-5">Thank You</h2>
-                                <h3 className="section-subheading text-muted text-center pb-5">Please Confirm Your Payment Below.</h3>
+                                <h2 className="section-heading text-uppercase text-center pt-5">THANK YOU.</h2>
+                                <h3 className="section-subheading  text-center pt-5 " style={{color:'black'}}>CONFIRM YOUR PAYMENT HERE :</h3>
                                     <table align="center" className="col-md-5 table table-striped table-hover border shadow">
                                         <thead className="thead-light border">
                                             <tr>

@@ -232,8 +232,8 @@ class WIshlistCart extends Component {
                     return (
                         <div  style={{height: '239px'}}>
                         <div className="d-flex justify-content-center" style={{marginTop: '130px'}}>
-                            <div className="alert alert-warning col-md-4 mt-5 border shadow-lg" style={{ fontSize: "20px" }}>
-                                <center><b>Upps, Your wishlist is empty!!!</b><br/></center>
+                            <div className="alert alert-warning col-md-4 mt-5 border-dark" style={{ fontSize: "20px" }}>
+                                <center><b style={{color:"black"}}>WISHLIST IS EMPTY</b><br/></center>
                             </div>
                         </div>
                         </div>
