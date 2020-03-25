@@ -38,18 +38,9 @@ class ProductsGridView extends Component {
 // function untuk search produk berdasarkan nama
     onBtnSearchClick = () => {
         var nama = this.refs.produk.value;
-        // var merk = this.refs.searchMerk.value;
-        // var hargaMin = this.refs.hargaMinSearch.value;
-        // var hargaMax = this.refs.hargaMaxSearch.value;
-
         var arrSearch = this.state.ManageProducts.filter((item) => {
-            // return item.merk.toLowerCase().includes(merk.toLowerCase())
-            //     && item.harga.toLowerCase() >= hargaMin.toLowerCase()
-            //     && item.harga.toLowerCase() <= hargaMax.toLowerCase()
-            //     && item.nama.toLowerCase().includes(nama.toLowerCase());
             return item.nama.toLowerCase().includes(nama.toLowerCase())
         })
-
         this.setState({ searchManageProducts: arrSearch })
     }
 

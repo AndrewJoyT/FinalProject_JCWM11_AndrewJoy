@@ -73,10 +73,10 @@ class ConfirmOrder extends Component {
         if(this.props.username !== '' && this.props.myRole === 'MEMBER') {
             return(
                     <tr>
-                        <td className="text-left" style={{ fontSize: '14px', }}>
+                        <td className="text-left  " style={{ fontSize: '14px', }}>
                             <input type="text" size="8" placeholder="Your Invoice" 
                             ref="invoice" style={{ fontSize: "13px" }} 
-                            className="form-control"/>
+                            className="form-control  "/>
                         </td>
                         <td className="text-left" style={{ fontSize: '14px', }}>
                             <CustomInput type="file" id="AddBrandImage" name="AddBrandImage" label={this.state.addConfirmImage} onChange={this.onAddFileImageChange} />
@@ -93,12 +93,12 @@ class ConfirmOrder extends Component {
         if (this.props.username !== '') {
             if(this.props.status === 'Verified'){
                 return (
-                        <div  style={{height: '700px'}}>
-                            <div className="full-width-div card bg-light pb-5">
+                        <div  style={{height: '300px'}}>
+                            <div className="full-width-div card bg-light pb-5" style={{height:'400px'}}>
                                 {/* <div className="table-responsive card shadow p-3 mb-5 bg-white rounded"> */}
                                 <h2 className="section-heading text-uppercase text-center pt-5">THANK YOU.</h2>
-                                <h3 className="section-subheading  text-center pt-5 " style={{color:'black'}}>CONFIRM YOUR PAYMENT HERE :</h3>
-                                    <table align="center" className="col-md-5 table table-striped table-hover border shadow">
+                                <h2 className="section-subheading  text-center pt-5 " style={{color:'black'}}>CONFIRM YOUR PAYMENT HERE :</h2>
+                                    <table align="center" className="col-md-5 table table-striped table-hover border shadow" style={{ marginTop:'20px',paddingBottom:'200px'}}>
                                         <thead className="thead-light border">
                                             <tr>
                                                 <th scope="col" colSpan="3" className="font-weight-bold" style={{ fontSize: '16px', }}><center>Invoice</center></th>

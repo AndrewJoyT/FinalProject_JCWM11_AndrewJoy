@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ProductsGridView from './ProductsGridView';
 import { connect } from 'react-redux';
-import Carousels from './Carousel';
-import HomeCard from './HomeCard';
+import Carousels from '../pages/Carousel';
+import HomeCard from '../pages/HomeCard';
 import Dashboard from './admin/Dashboard';
 import ConfirmTrx from './admin/ConfirmTrx';
 import ManageProducts from './admin/ManageProducts';
@@ -24,7 +24,14 @@ class HomePage extends Component {
       )
     } else if (this.props.myRole === 'MEMBER') {
       return (
-        <ProductsGridView/>
+        <div>
+        <div style={{marginTop: '-29px'}}>
+          <Carousels />
+        </div>
+        <div style={{paddingTop: '690px'}}>
+          <HomeCard/>
+        </div>
+      </div>
       )
     } else {
       return (
